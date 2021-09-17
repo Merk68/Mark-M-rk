@@ -27,20 +27,26 @@ namespace Markó_Márk
       Console.WriteLine("7. feladat: Statisztika");
       Dictionary<string, int> stat = new Dictionary<string, int>()
       {
-        { "beszerzés", 0},
-        { "pénzügy", 0},
-        { "asztalonműhely", 0},
+        {"beszerzés", 0},
+        {"pénzügy", 0},
+        {"asztalosműhely", 0},
         {"értékesítés", 0 },
         {"lakatosműhely", 0 },
         {"karbantartás", 0 },
         {"szerelőműhely", 0 },
         {"személyzeti", 0 }
       };
+      foreach (var s in )
+      {
+        if (stat.ContainsKey(s.))
+        {
+          stat[s.szamitas]++;
+        }
+      }
       {
         foreach (var s in stat)
         {
-
-          Console.WriteLine($"{s.Key} - {s.Value}");
+          Console.WriteLine($"{s.Key} - {s.Value} fő");
         }
       }
 
